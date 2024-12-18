@@ -75,7 +75,7 @@ El parámetro `p` en la URL indica el número de página. El script utiliza esta
    - Actualmente, el DataFrame incluye los campos: Título, Empresa, Ubicación, Salario y Enlace de la oferta. 
      Sin embargo, en este caso tambien vamos a agregar también la Descripción para tener mas datos.
 
-     En Computrabajo, para acceder a la descripción completa de una oferta, es necesario "dar clic" en la oferta específica,
+     En Computrabajo, para acceder a la descripción completa de una oferta, es necesario "dar click" en la oferta específica,
      lo que implica realizar un scraping dinámico. 
 
      Dado que BeautifulSoup solo puede manejar datos estáticos, no es adecuado para esta tarea. Para interactuar con 
