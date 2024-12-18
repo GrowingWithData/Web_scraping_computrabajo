@@ -72,7 +72,18 @@ El parámetro `p` en la URL indica el número de página. El script utiliza esta
    - Se introducen pausas de entre 1 y 3 segundos entre solicitudes para evitar bloqueos por el servidor.
 
 4. **Obtención de Descripciones**
-   - Se accede a cada enlace individual para obtener una descripción detallada de la oferta.
+   - Actualmente, el DataFrame incluye los campos: Título, Empresa, Ubicación, Salario y Enlace de la oferta. 
+     Sin embargo, en este caso tambien vamos a agregar también la Descripción para tener mas datos.
+
+     En Computrabajo, para acceder a la descripción completa de una oferta, es necesario "dar clic" en la oferta específica,
+     lo que implica realizar un scraping dinámico. 
+
+     Dado que BeautifulSoup solo puede manejar datos estáticos, no es adecuado para esta tarea. Para interactuar con 
+     elementos dinámicos como botones de clic, sería necesario utilizar herramientas como Selenium, que permite 
+     automatizar acciones en el navegador.
+
+     En este enfoque, accederemos a cada uno de los enlaces extraídos y obtendremos la descripción de cada oferta 
+     para luego añadirla al DataFrame.
 
 5. **Almacenamiento de Datos**
    - Los datos se almacenan en un archivo CSV llamado `Ofertas_Computrabajo.csv`.
