@@ -17,7 +17,7 @@ pip install requests beautifulsoup4 pandas
 1. **Ejecuta el script**:
 
    ```
-   Jupiter web_scrapping_computrabajo.ipynb
+    web_scrapping_computrabajo.ipynb
    ```
 
 2. **Introduce el número de páginas** que deseas scrapear cuando se te solicite.
