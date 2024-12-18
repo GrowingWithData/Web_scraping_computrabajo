@@ -14,24 +14,15 @@ pip install requests beautifulsoup4 pandas
 
 ---
 
-## 🚀 **Cómo Ejecutar el Script**
+1. **Ejecuta el script**:
 
-1. **Clona el repositorio** o descarga el archivo `web_scrapping_copia.py`:
-
-   ```bash
-   git clone https://github.com/tu-usuario/web_scraping_computrabajo.git
-   cd web_scraping_computrabajo
+   ```
+   Jupiter web_scrapping_computrabajo.ipynb
    ```
 
-2. **Ejecuta el script**:
+2. **Introduce el número de páginas** que deseas scrapear cuando se te solicite.
 
-   ```bash
-   python web_scrapping_copia.py
-   ```
-
-3. **Introduce el número de páginas** que deseas scrapear cuando se te solicite.
-
-4. El script generará un archivo `Ofertas_Computrabajo.csv` con los datos extraídos.
+3. El script generará un archivo `Ofertas_Computrabajo.csv` con los datos extraídos.
 
 ---
 
@@ -102,7 +93,7 @@ El archivo CSV generado `Ofertas_Computrabajo.csv` tendrá el siguiente formato:
 ## ⚠️ **Consideraciones y Limitaciones**
 
 1. **Cambios en la Estructura del Sitio**:
-   - El scraping depende de la estructura HTML de Computrabajo. Si el sitio cambia su estructura, el script puede necesitar ajustes.
+   - El scraping depende de la estructura HTML de Computrabajo. Si este sitio cambia su estructura, el script puede necesitar ajustes.
 
 2. **Bloqueos del Servidor**:
    - Para evitar ser bloqueado, se introducen pausas aleatorias entre solicitudes. Sin embargo, si se realizan demasiadas solicitudes en poco tiempo, el servidor podría bloquear la IP.
@@ -116,7 +107,7 @@ El archivo CSV generado `Ofertas_Computrabajo.csv` tendrá el siguiente formato:
 
 - **Incorporar Selenium** para realizar scraping dinámico y extraer la descripción de ofertas que requieren interacción.
 - **Optimización de Desempeño** para reducir el tiempo de scraping.
-- **Manejo Avanzado de Errores** para reintentar solicitudes fallidas y registrar errores detallados.
+- **Manejo Avanzado de Errores** para reintentar solicitudes fallidas
 
 ---
 
@@ -128,9 +119,3 @@ Este proyecto proporciona una base sólida para la automatización de recopilaci
 
 ---
 
-## 👥 **Contacto**
-
-Si tienes alguna duda o sugerencia, no dudes en ponerte en contacto:
-
-- **GitHub**: [tu-usuario](https://github.com/tu-usuario)
-- **Email**: tu-email@example.com
